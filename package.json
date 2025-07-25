@@ -1,0 +1,14 @@
+{
+  "name": "prompthub-standalone",
+  "version": "1.0.0",
+  "description": "Standalone HTML/CSS/JS version of PromptHub",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "lint": "echo 'No linting configured for standalone HTML/CSS/JS project'"
+  },
+  "keywords": ["prompts", "ai", "management", "local-storage"],
+  "author": "PromptHub",
+  "license": "MIT"
+}
